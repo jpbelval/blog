@@ -36,12 +36,13 @@ En comparaison, la personne moyenne dans le monde émet 4 tonnes de CO22 chaque 
 ## Entraînement des modèles
 L’impact de l’entraînement dépend énormément du taux d’émission de la source de génération d’électricité. Si le réseau électrique est alimenté par des centrales au charbon, les GES générés seront évidemment beaucoup plus significatifs qu’avec des sources hydroélectriques ou nucléaires. C’est une réalité qui se traduit dans les émissions par kWh selon différents réseaux. La métrique de CO2/kWh constitue la base de l’empreinte carbone de tout centre de données, et donc, par extension, des IAs génératives.
 
-
+```
 | Réseau électrique | Émission (g éq. CO2/kWh) |
 | -------- | -------- |
 | Québec     |   35   |
 | France     | 57     |
 | Iowa (US) | 206     |
+```
 Table: Émissions de différents réseaux électriques en gCO2 par kWh[^iowa] [^qc] [^fr]
 
 Les modèles de LLMs varient grandement par leur taille et leur durée d'entraînement. De plus, le lieu physique de l'entraînement est différent d'une entreprise à l'autre. L'état américain de l'Iowa a été inclus dans le tableau, car c'est à cet endroit que Microsoft a construit un centre de données. Pour minimiser l'empreinte environnementale des modèles, l'une des meilleures stratégies est de cibler des endroits possédant un réseau électrique propre. Ce n'est cependant pas toujours la préoccupation principale.
@@ -64,6 +65,7 @@ Les émissions lors du déploiement et de l'utilisation des LLMs est probablemen
 Une étude a tout de même été menée par HuggingFace pour calculer le coût énergétique de l'inférence de leur modèle BLOOM. Les chercheurs ont déployé leur LLM sur la plateforme Cloud de Google en analysant la puissance utilisée en temps réel. Les requêtes ont été effectuées sans *batching* avec en moyenne 558 requêtes par heure durant 18 jours.
 
 ![Puissance moyenne utilisée pour l'inférence](..\assets\images\0a1d52f3-1b3c-42d8-adaf-146c959e4497.png)
+
 Figure: Fluctuation de la puissance moyenne utilisée pour l'inférence de BLOOM [^arxiv]
 
 En étant déployé dans la région us-central, les requêtes ont produit 19 kg de CO~2~ par jour de déploiement. C'est environ 1,42 g de CO~2~ par requête. 
