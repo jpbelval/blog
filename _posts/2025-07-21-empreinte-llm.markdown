@@ -15,7 +15,7 @@ Plusieurs GPUs différents peuvent être utilisés dans le cadre de l’entraîn
 
 > Le CO2eq est la base qui permet de réunir les différents extrants d’un procédé de conception sous la même unité selon son effet de serre. Par exemple, 1 kg de méthane est équivalent à 25 kg de CO2.
 
-Pour GPT-4, le modèle d’OpenAI, ce sont 25 000 GPUs A100 qui ont été utilisés pour l’entraînement.[3] Ainsi, avant même l’utilisation de l’infrastructure pour l’entraînement ou le déploiement de quelconque technologie, ce sont environ 3125 serveurs pour 7 812 tonnes de CO2 et 25 000 GPUs pour 0,63 tonnes de CO2.
+Pour GPT-4, le modèle d’OpenAI, ce sont 25 000 GPUs A100 qui ont été utilisés pour l’entraînement.[3] Ainsi, avant même l’utilisation de l’infrastructure pour l’entraînement ou le déploiement de quelconque technologie, ce sont environ 3125 serveurs pour 7 812 tonnes de CO2 et 25 000 GPUs pour 625 tonnes de CO2.
 
 Pour être rigoureux, il faut considérer la durée de vie de cet équipement. En effet, il serait malhonnête de considérer qu’une fois l’entraînement fini, l’infrastructure est mise à la poubelle. Ainsi, considérant une utilisation de l’infrastructure à 85% avec un taux de remplacement de 6 ans, nous obtenons environ 0,056 kg de CO2 par heure d’utilisation du serveur et 0,0005 kg de CO2 par heure d’utilisation de GPU. L’entraînement de GPT-4 a duré 100 jours d’utilisation d’infrastructure au total.[4] Nous obtenons donc:
 
