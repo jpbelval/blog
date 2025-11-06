@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "L'empreinte carbone des LLMs"
-date:   2025-07-21 15:25:59 -0400
+date:   2025-07-21 15:25:59 -0500
 tags:
 - general
 - fr
