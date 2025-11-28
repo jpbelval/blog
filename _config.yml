@@ -2,7 +2,7 @@
 # site.title
 
 title: JP Belval
-description: a minimal, content focused blog
+description: JP Belval I'm a computer science student from Québec, particularly interested in ML, scalability and cloud. I also have a passion for open-source. I firmly believe that by contributing together on robust software, professionals can create meaningful value for the community as a whole.
 # baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
 url: "https://belval.net" # the base hostname & protocol for your site
 # host: 0.0.0.0
