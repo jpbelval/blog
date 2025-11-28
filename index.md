@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Index
+description: JP Belval I'm a computer science student from Québec, particularly interested in ML, scalability and cloud. I also have a passion for open-source. I firmly believe that by contributing together on robust software, professionals can create meaningful value for the community as a whole. 
 ---
 
 
