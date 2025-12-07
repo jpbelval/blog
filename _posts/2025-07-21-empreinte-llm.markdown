@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "L'empreinte carbone des LLMs"
-date:   2025-07-21 15:25:59 -0400
+date:   2025-07-21 15:25:59 -0500
 tags:
 - general
 - fr
+description: L’utilisation responsable de l’énergie émettrice de CO2 est de plus en plus au centre des préoccupations populaires. Dans ce contexte, l’émergence de nouvelles technologies vient avec beaucoup d’excitation, mais également avec une certaine méfiance quant à son impact environnemental. L’entraînement de l’intelligence artificielle et son utilisation font donc naturellement l’objet d’analyse environnementale. Présentement, seules des estimations peuvent être obtenues, car les plus grandes entreprises d’intelligence artificielle (OpenAI, Meta et Google) ne révèlent pas la consommation de leurs services respectifs.
 ---
 L’utilisation responsable de l’énergie émettrice de CO2 est de plus en plus au centre des préoccupations populaires. Dans ce contexte, l’émergence de nouvelles technologies vient avec beaucoup d’excitation, mais également avec une certaine méfiance quant à son impact environnemental. L’entraînement de l’intelligence artificielle et son utilisation font donc naturellement l’objet d’analyse environnementale. Présentement, seules des estimations peuvent être obtenues, car les plus grandes entreprises d’intelligence artificielle (OpenAI, Meta et Google) ne révèlent pas la consommation de leurs services respectifs. En considérant les émissions de gaz à effet de serre du réseau énergétique, ainsi que la consommation en électricité des différentes étapes menant au déploiement d’une IA ( conception du GPU, entraînement et déploiement), il est tout de même possible d’avoir un aperçu plus ou moins précis.
 
